@@ -11,7 +11,7 @@ let availableQuesions = [];
 
 let questions = [];
 
-fetch('/FoxxOwl/questions.json')
+fetch('https://github.com/OfficialSiddharthBisht/FoxxOwl/blob/main/questions.json')
     .then((res) => {
         return res.json();
     })
