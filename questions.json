@@ -30,5 +30,21 @@
   "choice3": "Nainital",
   "choice4": "Ranikhet",
   "answer": 1
+  },
+  {
+   "question": "The nucleus of an atom consists of ?",
+   "choice1": "electron and neutrons",
+   "choice2": "electeon and protons",
+   "choice3": "protons and neutrons",
+   "choice4": "all of the above",
+   "answer": 3
+  },
+  {
+  "question": "The number of moles of solute present in 1 kg of a solvent is called its",
+   "choice": "molality",
+   "choice2": "molartiy",
+   "choice3": "normality",
+   "choice4": "formality",
+   "answer": 1
   }
 ]
