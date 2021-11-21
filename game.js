@@ -63,6 +63,7 @@ getNewQuestion = () => {
     if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score);
         //go to the end page
+        // ! To run in local machine remove /FoxxOwl
         return window.location.assign('/FoxxOwl/end.html');
     }
     questionCounter++;
