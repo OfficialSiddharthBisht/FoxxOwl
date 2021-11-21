@@ -1,5 +1,5 @@
 :root {
-  background-color: #ecf5ff;
+  background-color: #7d848b;
   font-size: 62.5%;
 }
 
@@ -8,9 +8,10 @@
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
-  color: rgb(71, 143, 71);
-  background-color:ivory;
-  background-image: url("background.jpg");
+  color: rgb(91, 122, 91);
+  background-color:rgb(20, 26, 22);
+  /* background-image: url("background.jpg"); */
+  opacity: 1;
 }
 .center{
   display: block;
@@ -27,9 +28,9 @@ h4 {
 }
 
 h1 {
-  font-size: 5.4rem;
+  font-size: 6.5rem;
   color: #56a5eb;
-  margin-bottom: 5rem;
+  /* margin-bottom: 5rem; */
 }
 
 h1 > span {
@@ -39,7 +40,7 @@ h1 > span {
 
 h2 {
   font-size: 4.2rem;
-  margin-bottom: 4rem;
+  /* margin-bottom: 4rem; */
   font-weight: 700;
 }
 
@@ -97,7 +98,7 @@ h3 {
   margin-bottom: 1rem;
   text-decoration: none;
   color: #56a5eb;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(1, 15, 22);
 }
 
 .btn:hover {
@@ -133,3 +134,5 @@ input {
 input::placeholder {
   color: #aaa;
 }
+
+
