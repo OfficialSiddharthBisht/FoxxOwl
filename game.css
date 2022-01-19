@@ -1,6 +1,6 @@
-*{
+/* *{
   background-color: aquamarine;
-}
+} */
 .choice-container {
   display: flex;
   margin-bottom: 0.5rem;
@@ -12,7 +12,7 @@
 
 .choice-container:hover {
   cursor: pointer;
-  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  box-shadow: 0 0.10rem 1.4rem 0 rgba(86, 185, 235, 0.5);
   transform: translateY(-0.1rem);
   transition: transform 150ms;
 }
@@ -29,11 +29,13 @@
 }
 
 .correct {
-  background-color: #28a745;
+  background-color: #02c22f;
+  color: #02c22f;
 }
 
 .incorrect {
-  background-color: #dc3545;
+  background-color: #eb162c;
+  color: #e20f0f;
 }
 
 /* HUD */
@@ -55,13 +57,13 @@
 #progressBar {
   width: 20rem;
   height: 4rem;
-  border: 0.3rem solid #56a5eb;
+  border: 0.3rem solid cornsilk;
   margin-top: 1.5rem;
 }
 
 #progressBarFull {
   height: 3.4rem;
-  background-color: #56a5eb;
+  background-color: #e20f0f;
   width: 0%;
 }
 
